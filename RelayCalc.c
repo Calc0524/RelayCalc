@@ -12,5 +12,11 @@ int main(){
 	else if(cal == '-'){
 		printf("%d - %d = %d",a,b,a-b);
 	}
+	else if (cal == '*') {
+		printf("%d * %d = %d", a, b, a * b);
+	}
+	else if (cal == '/') {
+		printf("%d / %d = %d", a, b, a / b);
+	}
 	//:carrot:
 }
